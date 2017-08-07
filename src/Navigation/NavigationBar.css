@@ -1,0 +1,50 @@
+#navigation-bar{
+	position: absolute;
+	padding: 5px 0;			
+	width: 100%;
+	z-index: 1;
+	top: 10px;	
+}
+@media screen and (max-width:480px){
+	#navigation-bar{
+		top: 90vh;
+	}
+}
+
+#navigation-bar ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	-webkit-margin-before: 0;
+	-webkit-padding-start: 0;
+	-webkit-margin-after: 0;
+	text-align: center;	
+}
+#navigation-bar ul li{		
+
+	font-size: 18px;
+	text-align: center;
+	
+	cursor: pointer;		
+}
+#navigation-bar ul li a{
+	outline: none;
+	color: white;
+	text-decoration: none;
+	opacity: 0.8;
+}
+#navigation-bar ul li i{
+	font-size: 36px;
+	display: inline-block;
+	transition: 0.5s;	
+}
+#navigation-bar ul li span{
+	transition: 0.5s;
+}
+#navigation-bar ul li a.active{
+	opacity: 1;
+	font-weight: 600;
+}
+#navigation-bar ul li:hover a{
+	opacity: 1;
+}

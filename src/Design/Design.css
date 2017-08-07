@@ -1,0 +1,11 @@
+#design{
+	position: relative;
+	color: white;
+}
+
+#design .banner{
+	background-image: url("../img/lightbulbs.jpg");
+}
+
+#design .banner .tagline{	
+}
