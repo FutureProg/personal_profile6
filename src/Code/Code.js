@@ -1,5 +1,7 @@
 import React from 'react';
+
 import NavigationBar from '../Navigation/NavigationBar';
+import HeroBottomArrow from '../Navigation/HeroBottomArrow';
 
 import './Code.css';
 
@@ -15,7 +17,8 @@ class Code extends React.Component{
 						<tag><i>"Always code as if the guy who ends up maintaining your code will be a
 violent psychopath who knows where you live.  Code for <span style={{color:'yellow'}}>readability</span>."</i></tag>
 						<div style={{textAlign:'right',paddingRight:'18%'}}><small>&ndash; <a href="https://groups.google.com/d/msg/comp.lang.c++/rYCO5yn4lXw/oITtSkZOtoUJ">John F Woods</a></small></div>
-					</div>					
+					</div>		
+					<HeroBottomArrow/>			
 				</div>
 				<NavigationBar/>
 				<div className="content">

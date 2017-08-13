@@ -3,11 +3,11 @@
 	padding: 5px 0;			
 	width: 100%;
 	z-index: 1;
-	top: 10px;	
+	top: 30px;	
 }
 @media screen and (max-width:480px){
 	#navigation-bar{
-		top: 90vh;
+		top: 85vh;
 	}
 }
 

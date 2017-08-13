@@ -12,6 +12,16 @@
 	background-size: cover;
 	background-position: center bottom;
 }
+.banner .bottom-arrow{
+  position: absolute;
+  left: calc( 50% - 25px);
+  bottom: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.banner .bottom-arrow:hover{
+  transform: translateY(5px);
+}
 .banner .tagline{	
 	position: absolute;
 	text-align: center;
@@ -27,7 +37,10 @@
   }
 	.banner .tagline{
 		top: 0%;
-	}
+  }
+  .banner .bottom-arrow{
+    display: none;
+  }
 }
 @media screen and (max-width:320px){
   .banner .tagline{

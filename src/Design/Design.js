@@ -1,6 +1,7 @@
 import React from 'react';
 
 import NavigationBar from '../Navigation/NavigationBar';
+import HeroBottomArrow from '../Navigation/HeroBottomArrow';
 
 import './Design.css';
 
@@ -16,6 +17,7 @@ class Design extends React.Component{
 						<tag><i>"When creating content, be <span style={{color:'yellow'}}>empathetic</span> above all else. Try to live the lives of your audience."</i></tag>
 						<div style={{textAlign:'right',paddingRight:'18%'}}><small>&ndash; Rand Fishkin, Founder at Moz</small></div>
 					</div>
+					<HeroBottomArrow/>
 				</div>
 				<NavigationBar/>
 

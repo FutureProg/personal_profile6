@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 
 import NavigationBar from '../Navigation/NavigationBar';
+import HeroBottomArrow from '../Navigation/HeroBottomArrow';
 
 import './Home.css';
 import LightHouse from '../img/lighthouse.jpg';
@@ -16,7 +17,8 @@ class Home extends React.Component{
 					<div className="tagline">
 						<h1>Nickolas Morrison</h1>
 						<tag>UX Designer, Software Developer</tag>
-					</div>														
+					</div>								
+					<HeroBottomArrow/>			
 				</div>
 				<NavigationBar/>
 
@@ -32,7 +34,7 @@ class Home extends React.Component{
 					</p>
 					<p>
 						
-					</p>
+					</p>					
 				</div>
 			</div>
 		)
