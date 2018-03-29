@@ -4,3 +4,6 @@
 #contact .banner{
 	background-image: url("../img/bedlaptop.jpg");
 }
+#contact a{
+	text-decoration: none;
+}
